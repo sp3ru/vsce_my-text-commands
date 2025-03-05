@@ -1,7 +1,9 @@
 {
   "name": "my-text-commands",
+  "publisher": "sp3",
+  "repository": "https://github.com/sp3ru/vsce_split-selection-words",
   "displayName": "my_text_commands",
-  "description": "",
+  "description": "разбить линии на строки или слова + поменять слеши + пронумеровать выделенное",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.97.0"
@@ -13,10 +15,18 @@
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
-      {
-        "command": "my-text-commands.helloWorld",
-        "title": "Hello World"
-      }
+		{
+		"command": "my-text-commands.multiRange",
+		"title": "multiRange - пронумеровать выделенное. Если Первое выделенное число, то начать с него"
+		},
+		{
+		"command": "my-text-commands.splitIntoWord",
+		"title": "splitIntoWord - разбить линии на строки или слова"
+		},
+		{
+		"command": "my-text-commands.changeSlash",
+		"title": "changeSlash - поменять слеши"
+		}
     ]
   },
   "scripts": {
