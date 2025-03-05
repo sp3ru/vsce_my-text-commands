@@ -16,6 +16,22 @@
 - change bind to `ALT+N`
 
 
+
+
+## Установка из файла .vsix
+https://code.visualstudio.com/api/working-with-extensions/publishing-extension#packaging-extensions
+
+ 
+
+## Собрать .vsix из репозитория
+Установить  Node.js
+Установить  vsce
+`npm install -g @vscode/vsce`
+
+`cd путь-до/my-text-commands`
+`vsce package`
+
+
 ## Release Notes
 
 ### 0.0.1
