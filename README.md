@@ -25,4 +25,4 @@ Initial release
 
 ## Source code
 
-https://github.com/sp3ru/vsce_split-selection-words
+https://github.com/sp3ru/vsce_my-text-commands
